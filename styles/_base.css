@@ -1,0 +1,30 @@
+
+/* variables */
+:root {
+    --bgc-fluid: rgba(236, 229, 211, 100%);
+    --primary-color: rgb(186, 158, 118);
+    --secondary-color: rgb(52, 47, 44);
+}
+body {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Copperplate-CC';
+    src: url(../fonts/Copperplate-CC/CopperplateCC-Bold.ttf);
+}
+@font-face {
+    font-family: 'OPTICopperplate';
+    src: url(../fonts/OPTICopperplate/OPTICopperplate.otf);
+}
+
+.container-fluid {
+    max-width: 1940px;
+    padding: 0 10px;
+    background: var(--bgc-fluid);
+}
+.container {
+    max-width: 1540px;
+}
+.container-fluid, .container {margin: 0 auto}
