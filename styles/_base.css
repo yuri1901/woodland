@@ -1,14 +1,25 @@
 
-/* variables */
 :root {
-    --bgc-fluid: rgba(236, 229, 211, 100%);
-    --primary-color: rgb(186, 158, 118);
+    --primary-color: rgba(186, 158, 118);
     --secondary-color: rgb(52, 47, 44);
+
+    --bgc-fluid: rgb(236, 229, 211);
+    --bgc-section: rgb(255, 251, 239);
+
+    --link-bgc-primary: rgb(186, 158, 118);
+    --link-bgc-secondary: rgb(52, 47, 44);
+    --link-color: rgb(240, 233, 214);
+
+    --title-base: rgb(52, 47, 44);
+    --title-base-block: rgba(186, 158, 118);
+    --text-base: rgb(103, 92, 85);
+    --subtext-base: rgb(186, 158, 118);
 }
 body {
     font-family: "Poppins", serif;
     font-size: 16px;
     font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 @font-face {
     font-family: 'Copperplate-CC';
@@ -20,11 +31,95 @@ body {
 }
 
 .container-fluid {
-    max-width: 1940px;
-    padding: 0 10px;
+    max-width: 1920px;
     background: var(--bgc-fluid);
 }
 .container {
     max-width: 1540px;
+    border: 1px solid red;
 }
 .container-fluid, .container {margin: 0 auto}
+
+a {
+    display: inline-block;
+    font-family: 'OPTICopperplate', serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+h1, h3 {color: rgb(255, 255, 255)}
+h2 {color: var(--secondary-color)}
+p {color: rgb(250, 250, 250)}
+
+
+
+
+.link-base {
+    padding: 14px 42px;
+    transition: opacity .5s ease;
+    line-height: 24px;
+    font-size: inherit;
+    text-transform: uppercase;
+}
+.link-base:hover {
+    opacity: .7;
+}
+
+
+.intro article.active {
+    display: flex;
+}
+.intro article.inactive {
+    display: none;
+}
+.tablist button.tab-selected {
+    background: var(--primary-color);
+    color: inherit;
+}  
+button.tab-selected > div > svg {
+    fill: white;
+}
+button.tab-selected > div.strk > svg {
+    fill: none;
+    stroke: white;
+}
+
+
+
+.subtext-base {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--subtext-base)
+}
+.title-base {
+    font-family: 'Copperplate-CC', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    color: var(--title-base);
+    position: relative;
+    z-index: 2;
+
+}
+.title-base::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: -1;
+    transform: translate(-50%, 0%);
+    width: 90px;
+    height: 90px;
+    background-color: var(--title-base-block);
+}
+.text-base {
+    line-height: 1.63;
+    color: var(--text-base);
+}
+
+.about {
+    background-color: var(--bgc-section);
+}

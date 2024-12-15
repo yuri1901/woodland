@@ -1,20 +1,10 @@
-<svg width="65" height="62" viewBox="0 0 65 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_604_124)" filter="url(#filter0_d_604_124)">
-<path d="M40.5231 21.6058L48.392 13.7368H61V9.46912C61 6.29727 58.4195 3.7168 55.2477 3.7168H9.75232C6.58047 3.7168 4 6.29727 4 9.46912V13.7368H27.4902V40.9054C27.4902 45.8888 23.436 49.9431 18.4525 49.9431H13.9766V53.283H51.12V49.9431H46.6323C41.6336 49.9431 37.5667 45.8888 37.5667 40.9054V18.6495L40.5231 21.6058ZM55.0721 7.05664H55.2477C56.5779 7.05664 57.6602 8.13886 57.6602 9.46912V10.3969H51.7318L55.0721 7.05664ZM7.33984 10.3969V9.46912C7.33984 8.13886 8.42206 7.05664 9.75232 7.05664H25.9739L29.3142 10.3969H7.33984ZM38.1657 49.9431H26.9001C29.3168 47.6827 30.8301 44.4677 30.8301 40.9054V13.7368H32.6541L34.2268 15.3095V40.9054C34.2269 44.4677 35.7435 47.6827 38.1657 49.9431ZM30.6972 7.05664H50.3489L40.5231 16.8826L30.6972 7.05664Z" fill="#342F2C"/>
-</g>
-<defs>
-<filter id="filter0_d_604_124" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_604_124"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_604_124" result="shape"/>
-</filter>
-<clipPath id="clip0_604_124">
-<rect width="57" height="57" fill="white" transform="translate(4)"/>
-</clipPath>
-</defs>
+<svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#vp5gzxyzea)">
+        <path d="m36.523 21.606 7.869-7.87H57V9.47a5.759 5.759 0 0 0-5.752-5.752H5.752A5.759 5.759 0 0 0 0 9.469v4.268h23.49v27.168c0 4.984-4.054 9.038-9.037 9.038H9.977v3.34H47.12v-3.34h-4.488c-4.998 0-9.065-4.054-9.065-9.038V18.65l2.956 2.957zm14.55-14.55h.175A2.415 2.415 0 0 1 53.66 9.47v.928h-5.928l3.34-3.34zM3.34 10.397V9.47a2.415 2.415 0 0 1 2.412-2.412h16.222l3.34 3.34H3.34zm30.826 39.547H22.9a12.345 12.345 0 0 0 3.93-9.038V13.737h1.824l1.573 1.572v25.596c0 3.563 1.517 6.778 3.939 9.038zM26.697 7.057H46.35l-9.826 9.826-9.826-9.826z" fill="rgb(52, 47, 44)"/>
+    </g>
+    <defs>
+        <clipPath id="vp5gzxyzea">
+            <path fill="rgb(52, 47, 44)" d="M0 0h57v57H0z"/>
+        </clipPath>
+    </defs>
 </svg>
